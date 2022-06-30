@@ -3,7 +3,6 @@
   "description": "Here I've built an Amazon Clone\r with the help of MERN",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
     "start": "node backend/server.js",
