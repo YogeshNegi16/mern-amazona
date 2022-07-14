@@ -197,11 +197,11 @@ export default function ProductEditScreen() {
               onChange={(e) => setImage(e.target.value)}
               required
             />
-            <Form.Group className="mb-3" controlId="imageFile">
-              <Form.Label>Upload Image</Form.Label>
-              <Form.Control type="file" onChange={uploadFileHandler} />
-              {loadingUpload && <LoadingBox></LoadingBox>}
-            </Form.Group>
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="imageFile">
+            <Form.Label>Upload Image</Form.Label>
+            <Form.Control type="file" onChange={uploadFileHandler} />
+            {loadingUpload && <LoadingBox></LoadingBox>}
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="additionalImage">
